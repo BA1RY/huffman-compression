@@ -9,13 +9,17 @@ Launch the terminal and navigate into the **huffman-compression** folder.
 
 Now type the following commands:
 - to compile the .cpp files
-'''
-  make
-'''
+
+    ```shell
+    make
+    ```
+
 - to run the program
-'''
-./run-huffman
-'''
+
+    ```shell
+    ./run-huffman
+    ```
+
 - the program runs
 
 ## Contributing
