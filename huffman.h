@@ -13,7 +13,6 @@
 #include <memory>
 #include <bitset>
 #include <sstream>
-#include <boost/dynamic_bitset.hpp>
 #include <sys/stat.h>
 #include <limits>
 

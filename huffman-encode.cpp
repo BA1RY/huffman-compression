@@ -67,7 +67,7 @@ void create_compressed_file(std::ifstream &input,std::ofstream &output,std::unor
 }
 
 void print_to_buffer(std::stringstream& s_buffer, std::string value) {
-    boost::dynamic_bitset<uint8_t> byte(value);
+    std::bitset<8> byte(value);
     char byte_char = byte.to_ulong();
     s_buffer.write(&byte_char, 1);
 }
