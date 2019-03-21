@@ -1,6 +1,7 @@
 # Text file compression
 
-File compression software for compressing Text files using Huffman coding algorithm. It is written in C++.
+File compression software for compressing text files(.txt files) using Huffman coding algorithm. It converts the text file into a binary file(.dat file). The binary file(.dat file) obtained can be converted back to text file(.txt file).
+It is written in C++.
 
 ## Getting started
 
