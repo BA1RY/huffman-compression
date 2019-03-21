@@ -55,10 +55,10 @@ void create_compressed_file(std::ifstream &input,std::ofstream &output,std::unor
     }
     if(buffer.size()>0) {
         len_end=buffer.size();
-        output<<len_end;
         print_to_buffer(s_buffer, buffer.substr(0,buffer.size()));
         buffer.erase(buffer.begin(),buffer.begin()+buffer.size());
     }
+    output<<len_end;
 
     while(s_buffer.rdbuf()->in_avail() != 0) {
         s_buffer>>letter;
