@@ -1,6 +1,6 @@
 # Text file compression
 
-File compression software for compressing Text files using Huffman coding algorithm. It is written in C++.
+File compression software for compressing text files(.txt files) using Huffman coding algorithm. It is written in C++.
 
 ## Getting started
 
